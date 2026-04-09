@@ -1,0 +1,21 @@
+{
+  "name": "aw2-clase-04-09",
+  "version": "1.0.0",
+  "description": "Repositorio de lo trabajado en clase\r Comandos básicos de GIT\r git init -> solo la primera vez\r git config user.name miusuario -> la primera vez\r git config user.email miemail@mail.com -> la primera vez\r git remote add origin https://github.com/miusuario/mirepositorio.git -> configurar repo remoto\r Creamos un README.md\r git status -> para ver estado de seguimiento -> README.md aparece en rojo\r git add . o git add ruta/nombreDeArchivo -> para marcar los archivos para guardar en repositorio.\r git status -> nuevamente para verificar si README.md está listo (staged) aparece en verde\r git commit -m \"primer commit\" -> Primer comit. Guardamos el seguimiento en local.\r git branch -> vemos si la rama es main, si es master, cambiamos el nombre como sigue:\r git branch -M main  -> cambiamos nombre de rama a main\r git push -u origin main -> subimos al repositorio remoto\r Al finalizar la clase, subimos lo que trabajamos repitiendo los pasos",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuVargasBus/AW2-clase-04-09.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LuVargasBus/AW2-clase-04-09/issues"
+  },
+  "homepage": "https://github.com/LuVargasBus/AW2-clase-04-09#readme"
+}
